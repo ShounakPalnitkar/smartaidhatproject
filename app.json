@@ -17,6 +17,7 @@
   },
   "android": {
     "package": "com.shounak.smartaidhat",
+    "versionCode": 1,
     "adaptiveIcon": {
       "foregroundImage": "./assets/adaptive-icon.png",
       "backgroundColor": "#ffffff"
@@ -35,8 +36,5 @@
   "platforms": [
     "ios",
     "android"
-  ],
-  "cli": {
-    "appVersionSource": "app.json"
-  }
+  ]
 }
