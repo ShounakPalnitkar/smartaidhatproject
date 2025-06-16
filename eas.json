@@ -1,7 +1,14 @@
 {
+  "cli": {
+    "version": ">= 3.0.0",
+    "appVersionSource": "project"
+  },
   "build": {
     "production": {
-      "releaseChannel": "production"
+      "releaseChannel": "production",
+      "android": {
+        "buildType": "apk"  // or "aab" if you plan to upload to Google Play
+      }
     }
   }
 }
